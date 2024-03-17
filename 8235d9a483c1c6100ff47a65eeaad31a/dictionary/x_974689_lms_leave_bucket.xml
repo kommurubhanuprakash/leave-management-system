@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7dfa11688305c6100ff47a65eeaad3e2" label="Leave  Bucket" max_length="40" name="x_974689_lms_leave_bucket" type="collection">
+        <element label="Accred" max_length="40" name="accred" type="float"/>
+        <element label="Balance" max_length="40" name="balance" type="float"/>
+        <element label="Last Year Balance" max_length="40" name="last_year_balance" type="float"/>
+        <element choice="1" choice_field="leave_type" choice_table="x_974689_lms_leave_request" label="Leave Type" max_length="40" name="leave_type" type="choice">
+            <choice/>
+        </element>
+        <element label="Taken" max_length="40" name="taken" type="float"/>
+    </element>
+</database>
